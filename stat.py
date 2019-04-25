@@ -21,6 +21,8 @@ def getinkb(val):
 		return float(val.strip("MiB"))*1000
 	elif val.endswith("B"):
 		return float(val.strip("B"))/1000
+	else:
+		return float(val)
 try:
 	p = Process(target=bmon)
 	p.start()
