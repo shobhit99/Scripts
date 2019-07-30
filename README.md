@@ -1,4 +1,5 @@
 # Logger
+## Records data after every n seconds and is saved in csv
 ### requires iotop and bmon
 ```sh
 sudo apt-get install iotop
